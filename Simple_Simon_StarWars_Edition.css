@@ -1,0 +1,96 @@
+body {
+    background-color:black;
+    background-image:
+            radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+            radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+            radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+            radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    padding: 20px;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Share Tech', monospace;
+    font-size: 16px;
+    color: #fff;
+}
+
+.button {
+    text-align: center;
+    cursor: pointer;
+    opacity: .7;
+}
+
+.button-box {
+    width: 20%;
+}
+
+#centre {
+    width: 30%;
+}
+
+#counter {
+    margin: 10px;
+}
+
+.highlight {
+    opacity: 1;
+}
+
+.logo {
+    width: 80%;
+}
+
+main {
+    max-width: 1000px;
+    min-width: 700px;
+    margin: 0 auto;
+}
+
+main, #center {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#middle-row, #top-row, #bottom-row, #controls {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#green {
+    fill: rgb(0, 255, 0);
+}
+
+#red {
+    fill: rgb(255, 0, 0);
+}
+
+#blue {
+    fill: rgb(0, 0, 255);
+}
+
+#yellow {
+    fill: rgb(255, 255, 0);
+}
+
+.btn {
+    background: #e8f615;
+    background-image: linear-gradient(to bottom, #e8f615, #eaf518);
+    border-radius: 5px;
+    color: #000000;
+    padding: 5px 10px;
+    margin: 5px;
+}
